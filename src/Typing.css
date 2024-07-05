@@ -1,0 +1,12 @@
+body {
+    color: white;
+    font-size: 30px;
+}
+
+@keyframes cursorBlink {
+    0%, 100% {opacity: 1;}
+    50% {opacity: 0;}
+}
+.cursor-blinking {
+    animation: cursorBlink 0.8s infinite;
+}
